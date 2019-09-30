@@ -1,0 +1,143 @@
+12:133  4:095  Found BIOS RSDP at F0010
+12:133  0:000  Printing ACPI tables from RSDP F0010 ...
+12:133  0:000   F0010: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:133  0:000    (Xsdt: D498B090, Rsdt: D498B028)
+12:133  0:000    D498B090: 'XSDT', 'TC-FH', Rev: 1, Len: 164
+12:133  0:000    D498B028: 'RSDT', 'TC-FH', Rev: 1, Len: 100
+12:133  0:000    Tables in Xsdt: 16
+12:133  0:000    0. D49A01B0: 'FACP', 'TC-FH', Rev: 5, Len: 268
+12:133  0:000        (Dsdt: D498B1C8, Facs: D56CAF80, XDsdt: D498B1C8, XFacs: 0)
+12:133  0:000        D498B1C8: 'DSDT', 'TC-FH', Rev: 2, Len: 85986
+12:135  0:001        D56CAF80: 'FACS', Ver: 2, Len: 64
+12:135  0:000    1. D49A02C0: 'APIC', 'TC-FH', Rev: 3, Len: 114
+12:135  0:000    2. D49A0338: 'FPDT', 'TC-FH', Rev: 1, Len: 68
+12:135  0:000    3. D49A0380: 'FIDT', 'TC-FH', Rev: 1, Len: 156
+12:135  0:000    4. D49A0420: 'ASF!', 'TC-FH', Rev: 32, Len: 165
+12:135  0:000    5. D49A04C8: 'DBGP', 'TC-FH', Rev: 1, Len: 52
+12:135  0:000    6. D49A0500: 'MSDM', 'TC-FH', Rev: 3, Len: 85
+12:135  0:000    7. D49A0558: 'SSDT', 'TC-FH', Rev: 1, Len: 1337
+12:135  0:000    8. D49A0A98: 'SSDT', 'TC-FH', Rev: 1, Len: 2776
+12:135  0:000    9. D49A1570: 'MCFG', 'TC-FH', Rev: 1, Len: 60
+12:135  0:000    10. D49A15B0: 'SLIC', 'TC-FH', Rev: 1, Len: 374
+12:135  0:000    11. D49A1728: 'HPET', 'TC-FH', Rev: 1, Len: 56
+12:135  0:000    12. D49A1760: 'SSDT', 'TC-FH', Rev: 1, Len: 877
+12:135  0:000    13. D49A1AD0: 'SSDT', 'TC-FH', Rev: 1, Len: 13608
+12:135  0:000    14. D49A4FF8: 'BGRT', 'TC-FH', Rev: 0, Len: 56
+12:135  0:000    15. D49A5030: 'LUFT', 'TC-FH', Rev: 1, Len: 207330
+12:135  0:000    Tables in Rsdt: 16
+12:135  0:000    0. D498B140: 'FACP', 'TC-FH', Rev: 2, Len: 132
+12:135  0:000        (Dsdt: D498B1C8, Facs: D56CAF40)
+12:135  0:000        D498B1C8: 'DSDT', 'TC-FH', Rev: 2, Len: 85986
+12:136  0:001        D56CAF40: 'FACS', Ver: 0, Len: 64
+12:136  0:000    1. D49A02C0: 'APIC', 'TC-FH', Rev: 3, Len: 114
+12:136  0:000    2. D49A0338: 'FPDT', 'TC-FH', Rev: 1, Len: 68
+12:136  0:000    3. D49A0380: 'FIDT', 'TC-FH', Rev: 1, Len: 156
+12:136  0:000    4. D49A0420: 'ASF!', 'TC-FH', Rev: 32, Len: 165
+12:136  0:000    5. D49A04C8: 'DBGP', 'TC-FH', Rev: 1, Len: 52
+12:136  0:000    6. D49A0500: 'MSDM', 'TC-FH', Rev: 3, Len: 85
+12:136  0:000    7. D49A0558: 'SSDT', 'TC-FH', Rev: 1, Len: 1337
+12:136  0:000    8. D49A0A98: 'SSDT', 'TC-FH', Rev: 1, Len: 2776
+12:136  0:000    9. D49A1570: 'MCFG', 'TC-FH', Rev: 1, Len: 60
+12:136  0:000    10. D49A15B0: 'SLIC', 'TC-FH', Rev: 1, Len: 374
+12:136  0:000    11. D49A1728: 'HPET', 'TC-FH', Rev: 1, Len: 56
+12:136  0:000    12. D49A1760: 'SSDT', 'TC-FH', Rev: 1, Len: 877
+12:136  0:000    13. D49A1AD0: 'SSDT', 'TC-FH', Rev: 1, Len: 13608
+12:136  0:000    14. D49A4FF8: 'BGRT', 'TC-FH', Rev: 0, Len: 56
+12:136  0:000    15. D49A5030: 'LUFT', 'TC-FH', Rev: 1, Len: 207330
+12:136  0:000  Found UEFI Acpi 2.0 RSDP at D498B000
+12:136  0:000  Saving ACPI tables from RSDP D498B000 to EFI\CLOVER\ACPI\origin ...
+12:136  0:000   D498B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36 -> RSDP.aml
+12:148  0:011    (Xsdt: D498B090, Rsdt: D498B028)
+12:148  0:000    D498B090: 'XSDT', 'TC-FH', Rev: 1, Len: 164 -> XSDT.aml
+12:153  0:004    D498B028: 'RSDT', 'TC-FH', Rev: 1, Len: 100 -> RSDT.aml
+12:159  0:006    Tables in Xsdt: 16
+12:159  0:000    0. D49A01B0: 'FACP', 'TC-FH', Rev: 5, Len: 268 -> FACP.aml
+12:165  0:005        (Dsdt: D498B1C8, Facs: D56CAF80, XDsdt: D498B1C8, XFacs: 0)
+12:165  0:000        D498B1C8: 'DSDT', 'TC-FH', Rev: 2, Len: 85986 -> DSDT.aml
+12:176  0:011        D56CAF80: 'FACS', Ver: 2, Len: 64 -> FACS.aml
+12:180  0:004    1. D49A02C0: 'APIC', 'TC-FH', Rev: 3, Len: 114 -> APIC.aml
+12:185  0:004    2. D49A0338: 'FPDT', 'TC-FH', Rev: 1, Len: 68 -> FPDT.aml
+12:189  0:004    3. D49A0380: 'FIDT', 'TC-FH', Rev: 1, Len: 156 -> FIDT.aml
+12:193  0:004    4. D49A0420: 'ASF!', 'TC-FH', Rev: 32, Len: 165 -> ASF!.aml
+12:198  0:004    5. D49A04C8: 'DBGP', 'TC-FH', Rev: 1, Len: 52 -> DBGP.aml
+12:203  0:005    6. D49A0500: 'MSDM', 'TC-FH', Rev: 3, Len: 85 -> MSDM.aml
+12:208  0:004    7. D49A0558: 'SSDT', 'TC-FH', Rev: 1, Len: 1337 -> SSDT-0-TC-FH.aml
+12:213  0:004    8. D49A0A98: 'SSDT', 'TC-FH', Rev: 1, Len: 2776 -> SSDT-1-TC-FH.aml (Found hidden SSDT 4 pcs)
+12:217  0:004        * D3568A98: '$', '', Rev: 0, Len: 23117  24 05 00 10 4D 5A 00 00 00 00 00 00 00 00 00 00 
+12:217  0:000        * D4922618: 'SSDT', 'ApIst', Rev: 1, Len: 1450  53 53 44 54 AA 05 00 00 01 D3 50 6D 52 65 66 00 Internal length = 1450 -> SSDT-x1_0-ApIst.aml
+12:221  0:004        * D4922C18: 'SSDT', 'Cpu0Cst', Rev: 1, Len: 979  53 53 44 54 D3 03 00 00 01 B3 50 6D 52 65 66 00 Internal length = 979 -> SSDT-x1_1-Cpu0Cst.aml
+12:225  0:004        * D4921D98: 'SSDT', 'ApCst', Rev: 1, Len: 281  53 53 44 54 19 01 00 00 01 EF 50 6D 52 65 66 00 Internal length = 281 -> SSDT-x1_2-ApCst.aml
+12:230  0:004  
+12:230  0:000    9. D49A1570: 'MCFG', 'TC-FH', Rev: 1, Len: 60 -> MCFG.aml
+12:234  0:004    10. D49A15B0: 'SLIC', 'TC-FH', Rev: 1, Len: 374 -> SLIC.aml
+12:238  0:004    11. D49A1728: 'HPET', 'TC-FH', Rev: 1, Len: 56 -> HPET.aml
+12:242  0:004    12. D49A1760: 'SSDT', 'TC-FH', Rev: 1, Len: 877 -> SSDT-2-TC-FH.aml
+12:247  0:004    13. D49A1AD0: 'SSDT', 'TC-FH', Rev: 1, Len: 13608 -> SSDT-3-TC-FH.aml
+12:251  0:004    14. D49A4FF8: 'BGRT', 'TC-FH', Rev: 0, Len: 56 -> BGRT.aml
+12:255  0:004    15. D49A5030: 'LUFT', 'TC-FH', Rev: 1, Len: 207330 -> LUFT.aml
+12:276  0:020    Tables in Rsdt: 16
+12:276  0:000    0. D498B140: 'FACP', 'TC-FH', Rev: 2, Len: 132 -> RSDT-FACP.aml
+12:280  0:004        (Dsdt: D498B1C8, Facs: D56CAF40)
+12:280  0:000        D498B1C8: 'DSDT', 'TC-FH', Rev: 2, Len: 85986
+12:282  0:001        D56CAF40: 'FACS', Ver: 0, Len: 64 -> RSDT-FACS.aml
+12:286  0:004    1. D49A02C0: 'APIC', 'TC-FH', Rev: 3, Len: 114
+12:286  0:000    2. D49A0338: 'FPDT', 'TC-FH', Rev: 1, Len: 68
+12:286  0:000    3. D49A0380: 'FIDT', 'TC-FH', Rev: 1, Len: 156
+12:286  0:000    4. D49A0420: 'ASF!', 'TC-FH', Rev: 32, Len: 165
+12:286  0:000    5. D49A04C8: 'DBGP', 'TC-FH', Rev: 1, Len: 52
+12:286  0:000    6. D49A0500: 'MSDM', 'TC-FH', Rev: 3, Len: 85
+12:286  0:000    7. D49A0558: 'SSDT', 'TC-FH', Rev: 1, Len: 1337
+12:286  0:000    8. D49A0A98: 'SSDT', 'TC-FH', Rev: 1, Len: 2776
+12:286  0:000    9. D49A1570: 'MCFG', 'TC-FH', Rev: 1, Len: 60
+12:286  0:000    10. D49A15B0: 'SLIC', 'TC-FH', Rev: 1, Len: 374
+12:286  0:000    11. D49A1728: 'HPET', 'TC-FH', Rev: 1, Len: 56
+12:286  0:000    12. D49A1760: 'SSDT', 'TC-FH', Rev: 1, Len: 877
+12:286  0:000    13. D49A1AD0: 'SSDT', 'TC-FH', Rev: 1, Len: 13608
+12:286  0:000    14. D49A4FF8: 'BGRT', 'TC-FH', Rev: 0, Len: 56
+12:286  0:000    15. D49A5030: 'LUFT', 'TC-FH', Rev: 1, Len: 207330
+12:286  0:000  Found UEFI Acpi 1.0 RSDP at D498B000
+12:286  0:000  Printing ACPI tables from RSDP D498B000 ...
+12:286  0:000   D498B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+12:286  0:000    (Xsdt: D498B090, Rsdt: D498B028)
+12:286  0:000    D498B090: 'XSDT', 'TC-FH', Rev: 1, Len: 164
+12:286  0:000    D498B028: 'RSDT', 'TC-FH', Rev: 1, Len: 100
+12:286  0:000    Tables in Xsdt: 16
+12:286  0:000    0. D49A01B0: 'FACP', 'TC-FH', Rev: 5, Len: 268
+12:286  0:000        (Dsdt: D498B1C8, Facs: D56CAF80, XDsdt: D498B1C8, XFacs: 0)
+12:286  0:000        D498B1C8: 'DSDT', 'TC-FH', Rev: 2, Len: 85986
+12:287  0:001        D56CAF80: 'FACS', Ver: 2, Len: 64
+12:287  0:000    1. D49A02C0: 'APIC', 'TC-FH', Rev: 3, Len: 114
+12:287  0:000    2. D49A0338: 'FPDT', 'TC-FH', Rev: 1, Len: 68
+12:287  0:000    3. D49A0380: 'FIDT', 'TC-FH', Rev: 1, Len: 156
+12:287  0:000    4. D49A0420: 'ASF!', 'TC-FH', Rev: 32, Len: 165
+12:287  0:000    5. D49A04C8: 'DBGP', 'TC-FH', Rev: 1, Len: 52
+12:287  0:000    6. D49A0500: 'MSDM', 'TC-FH', Rev: 3, Len: 85
+12:287  0:000    7. D49A0558: 'SSDT', 'TC-FH', Rev: 1, Len: 1337
+12:287  0:000    8. D49A0A98: 'SSDT', 'TC-FH', Rev: 1, Len: 2776
+12:287  0:000    9. D49A1570: 'MCFG', 'TC-FH', Rev: 1, Len: 60
+12:287  0:000    10. D49A15B0: 'SLIC', 'TC-FH', Rev: 1, Len: 374
+12:287  0:000    11. D49A1728: 'HPET', 'TC-FH', Rev: 1, Len: 56
+12:287  0:000    12. D49A1760: 'SSDT', 'TC-FH', Rev: 1, Len: 877
+12:287  0:000    13. D49A1AD0: 'SSDT', 'TC-FH', Rev: 1, Len: 13608
+12:287  0:000    14. D49A4FF8: 'BGRT', 'TC-FH', Rev: 0, Len: 56
+12:287  0:000    15. D49A5030: 'LUFT', 'TC-FH', Rev: 1, Len: 207330
+12:287  0:000    Tables in Rsdt: 16
+12:287  0:000    0. D498B140: 'FACP', 'TC-FH', Rev: 2, Len: 132
+12:287  0:000        (Dsdt: D498B1C8, Facs: D56CAF40)
+12:287  0:000        D498B1C8: 'DSDT', 'TC-FH', Rev: 2, Len: 85986
+12:289  0:001        D56CAF40: 'FACS', Ver: 0, Len: 64
+12:289  0:000    1. D49A02C0: 'APIC', 'TC-FH', Rev: 3, Len: 114
+12:289  0:000    2. D49A0338: 'FPDT', 'TC-FH', Rev: 1, Len: 68
+12:289  0:000    3. D49A0380: 'FIDT', 'TC-FH', Rev: 1, Len: 156
+12:289  0:000    4. D49A0420: 'ASF!', 'TC-FH', Rev: 32, Len: 165
+12:289  0:000    5. D49A04C8: 'DBGP', 'TC-FH', Rev: 1, Len: 52
+12:289  0:000    6. D49A0500: 'MSDM', 'TC-FH', Rev: 3, Len: 85
+12:289  0:000    7. D49A0558: 'SSDT', 'TC-FH', Rev: 1, Len: 1337
+12:289  0:000    8. D49A0A98: 'SSDT', 'TC-FH', Rev: 1, Len: 2776
+12:289  0:000    9. D49A1570: 'MCFG', 'TC-FH', Rev: 1, Len: 60
+12:289  0:000    10. D49A15B0: 'SLIC', 'TC-FH', Rev: 1, Len: 374
+12:289  0:000    11. D49A1728: 'HPET', 'TC-FH', Rev: 1, Len: 56
+12:289  0:000    12. D49A1760: 'SSDT', 'TC-FH', Rev: 1, Len: 877
+12:289  0:000    13. D49A1AD0: 'SSDT', 'TC-FH', Rev: 1, Len: 13608
+12:289  0:000    14. D49A4FF8: 'BGRT', 'TC-FH', Rev: 0, Len: 56
+12:289  0:000    15. D49A5030: 'LUFT', 'TC-FH', Rev: 1, Len: 207330
